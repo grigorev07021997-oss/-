@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f7f9"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%2321876d%27/%3E%3Ctext x=%278%27 y=%2724%27 font-size=%2726%27 fill=%27white%27%3Eк%3C/text%3E%3C/svg%3E"><title>Контур — аналитика VK</title><link rel="stylesheet" href="styles.css"><script defer src="app.js"></script></head>
+<body>
+<aside class="sidebar" id="sidebar">
+<a href="#projects" class="brand"><span class="brand-mark">к.</span>контур<span class="brand-dot">✳</span></a>
+<div class="workspace"><span class="workspace-icon">М</span><div><strong>Моё пространство</strong><small>Личный кабинет</small></div><span class="lock">⌑</span></div>
+<div class="nav-label">РАБОЧЕЕ ПРОСТРАНСТВО</div>
+<nav aria-label="Основная навигация">
+<a href="#projects" data-nav="projects"><span>▦</span>Мои проекты<span class="nav-count" id="project-count">4</span></a>
+<a href="#alerts" data-nav="alerts"><span>◉</span>Предупреждения<span class="alert-dot"></span></a>
+<a href="#reports" data-nav="reports"><span>▤</span>Отчёты</a>
+<a href="#settings" data-nav="settings"><span>⚙</span>Настройки</a>
+</nav>
+<div class="sidebar-bottom"><div class="demo-side"><span class="tiny-dot"></span>Демонстрационный режим<p>Изучите кабинет на примере.<br>Реальные данные не подключены.</p></div><button class="profile" id="profile-info"><span class="avatar">Я</span><span><strong>Мой кабинет</strong><small>Личное пространство</small></span><span>⋯</span></button></div>
+</aside>
+<div class="main-wrap"><header class="topbar"><button class="icon-btn mobile-menu" id="menu" aria-label="Открыть меню" aria-expanded="false">☰</button><div class="breadcrumbs">Рабочее пространство <span>/</span> <strong id="crumb">Мои проекты</strong></div><div class="top-right"><span class="demo-pill">Демо</span><span class="timezone">Екатеринбург · UTC+5</span><span class="avatar small-avatar">Я</span></div></header>
+<main id="main" tabindex="-1"></main>
+<footer>Контур · Аналитика, с которой всё понятно <span>VK Реклама · Сообщество · Senler</span></footer></div>
+<dialog id="modal"><div class="modal-head"><div><div class="eyebrow" id="modal-kicker">НОВЫЙ ПРОЕКТ</div><h2 id="modal-title"></h2></div><button class="icon-btn" id="close-modal" aria-label="Закрыть">✕</button></div><div id="modal-body"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body></html>
